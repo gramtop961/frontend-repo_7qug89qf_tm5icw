@@ -10,15 +10,23 @@
     --font-mona: 'Mona Sans', system-ui, sans-serif;
     --font-ibm-plex: 'IBM Plex Sans', system-ui, sans-serif;
     --font-manrope: 'Manrope', system-ui, sans-serif;
+
+    /* Brand palette */
+    --brand-ink: #FFFFFF;
+    --brand-bg: #002C40;
+    --brand-pink: #FF9CB8;
+    --brand-rasp: #FF366E;
   }
 
   html {
     font-family: var(--font-sans);
     font-feature-settings: "rlig" 1, "calt" 1;
+    background: var(--brand-bg);
   }
 
   body {
     @apply antialiased;
+    color: var(--brand-ink);
   }
 }
 
